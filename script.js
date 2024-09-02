@@ -6,3 +6,7 @@ const candidates = [
     { name: 'Scott Estrada', role: 'Developer', photo: 'scott-estrada-developer.jpg' },
     { name: 'Barbara Ramos', role: 'Graphic Designer', photo: 'barbara-ramos-graphic-designer.jpg' }
 ]
+
+for (let candidate of candidates) {
+    console.log(candidate.name,"", candidate.role,"", candidate.photo);
+}
